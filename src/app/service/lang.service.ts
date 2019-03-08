@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { Lang } from '../model/lang';
-import { HttpClient } from 'selenium-webdriver/http';
 
 @Injectable({
   providedIn: 'root'
